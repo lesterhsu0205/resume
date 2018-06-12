@@ -1,16 +1,21 @@
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $teal !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $teal !important;
 }
 
 a {
-  color: $primary;
+  color: $teal;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($teal, 15%);
   }
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: 0 !important;
 }

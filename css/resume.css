@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'cwTeXYen', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'cwTeXYen', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,7 +36,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'cwTeXYen', serif;
   font-size: 1.35rem;
 }
 
@@ -61,6 +62,7 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
@@ -131,17 +133,22 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #20c997 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #20c997 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #20c997;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #158765;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: 0 !important;
 }
